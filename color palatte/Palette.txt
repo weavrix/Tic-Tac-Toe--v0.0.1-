@@ -1,27 +1,24 @@
 /* CSS HEX */
---pink-1: #fdecef;
+--pink-1: #ffe3e9;
 --bright-reddish-pink: #f34954;
---mangoish-yellow: #f9d459;
+--mangoish-yellow: #ffdf75;
 --bright-yellowish-orange: #ffc400;
---pink-2: #e2bbc2;
---pink-3: #ffd2da;
+--pink-3: #fdc4ce;
 
 
 /* SCSS HEX */
-$pink-1: #fdecef;
+$pink-1: #ffe3e9;
 $bright-reddish-pink: #f34954;
-$mangoish-yellow: #f9d459;
+$mangoish-yellow: #ffdf75;
 $bright-yellowish-orange: #ffc400;
-$pink-2: #e2bbc2;
-$pink-3: #ffd2da;
+$pink-3: #fdc4ce;
 
 
 /* SCSS RGB */
---pink-1: rgb(253, 236, 239);
+--pink-1: rgb(255, 227, 233);
 --bright-reddish-pink: rgb(243, 73, 84);
---manogish-yellow: rgb(249, 212, 89);
+--manogish-yellow: rgb(255, 223, 117);;
 --bright-yellowish-orange: rgb(255, 196, 0);
---pink-2: rgb(226, 187, 194);
---pink-3: rgb(255, 210, 218);
+--pink-3: rgb(253, 196, 206);
 
 

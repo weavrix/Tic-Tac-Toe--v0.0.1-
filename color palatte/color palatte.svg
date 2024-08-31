@@ -3,19 +3,17 @@
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FEEDEF;}
+	.st0{fill:#FCE2E8;}
 	.st1{fill:#F04A55;}
-	.st2{fill:#F9D45A;}
+	.st2{fill:#FFDF75;}
 	.st3{fill:#FFC50D;}
-	.st4{fill:#E1BAC2;}
-	.st5{fill:#FBD1DA;}
+	.st4{fill:#F9C4CE;}
 </style>
 <g>
-	<rect class="st0" width="1000" height="166.5"/>
-	<rect y="166.5" class="st1" width="1000" height="166.5"/>
-	<rect y="333.1" class="st2" width="1000" height="166.5"/>
-	<rect y="500.4" class="st3" width="1000" height="166.5"/>
-	<rect y="666.9" class="st4" width="1000" height="166.5"/>
-	<rect y="833.5" class="st5" width="1000" height="166.5"/>
+	<rect class="st0" width="1000" height="199.8"/>
+	<rect y="199.8" class="st1" width="1000" height="199.8"/>
+	<rect y="399.6" class="st2" width="1000" height="199.8"/>
+	<rect y="600.4" class="st3" width="1000" height="199.8"/>
+	<rect y="800.2" class="st4" width="1000" height="199.8"/>
 </g>
 </svg>
