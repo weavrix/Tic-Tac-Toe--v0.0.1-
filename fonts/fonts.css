@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Hand-Jet";
+    src: url(./Handjet/Handjet-VariableFont_ELGR\,ELSH\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Regular";
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url(./Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Roboto-Medium";
+    src: url(./Roboto/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: "Mohr-Rounded";
+    src: url(./Mohr-Rounded/MohrRounded-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(./Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
