@@ -128,4 +128,107 @@ body{
     transform: scale(0.7);
 }
 
+/* lowersection button styles */
 
+
+.middleSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    width: 100%;
+}
+
+.wrapper{
+    width: 340px;
+    height: 340px;
+    background-color: white;
+    border: 4px dashed var(--bright-reddish-pink);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ticTacToe-section{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+
+
+.clk-btn{
+    width: 105px;
+    height: 105px;
+    border: none;
+    font-size: 50px;
+    margin: none;
+    padding: none;
+    font-family: "Mohr-Rounded";
+    color: white;
+    background-color: var(--bright-reddish-pink);
+    text-shadow: 0px 5px 10px white;
+    transition: 0.3s ease;
+}
+
+.clk-btn:hover{
+    cursor: pointer;
+}
+
+.clk-btn:active{
+    transform: scale(0.6);
+}
+
+.sp-bg{
+    background-color: var(--bright-yellowish-orange);
+}
+
+.btn-1{
+    border-top-left-radius: 20px;
+    border-right: 2px dashed white;
+    border-bottom: 2px dashed white;
+}
+.btn-2{
+    border-bottom: 2px dashed white;
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+}
+.btn-3{
+    border-top-right-radius: 20px;
+    border-bottom: 2px dashed white;
+    border-left: 2px dashed white;
+}
+.btn-4{
+    border-bottom: 2px dashed white;
+    border-top: 2px dashed white;
+    border-right: 2px dashed white;
+}
+.btn-5{
+    border-bottom: 2px dashed white;
+    border-right: 2px dashed white;
+    border-left: 2px dashed white;
+    border-top: 2px dashed white;
+}
+.btn-6{
+    border-bottom: 2px dashed white;
+    border-top: 2px dashed white;
+    border-left: 2px dashed white;
+}
+.btn-7{
+    border-bottom-left-radius: 20px;
+    border-top: 2px dashed white;
+    border-right: 2px dashed white;
+}
+.btn-8{
+    border-top: 2px dashed white;
+    border-left: 2px dashed white;
+    border-right: 2px dashed white;
+}
+.btn-9{
+    border-bottom-right-radius: 20px;
+    border-top: 2px dashed white;
+    border-left: 2px dashed white;
+}
+
+/* center tic tec toe main part design */
