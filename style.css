@@ -8,15 +8,74 @@ body{
     background-color: var(--pink-3);
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main{
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     flex-direction: column;
     align-items: center;
-    width: 70%;
-    height: 80%;
+    width: 80%;
+    height: 90%;
     background-color: var(--pink-1);
+    border-radius: 20px;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.upperSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+}
+
+.title h1{
+    font-family: "Montserrat";
+}
+
+.title-span{
+    color: var(--bright-reddish-pink);
+}
+
+.rounds{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: var(--bright-yellowish-orange);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Montserrat";
+    font-weight: 600;
+    padding:0;
+    margin:0;
+}
+
+.rounds .round{
+    font-weight: 700;
+    font-size: 25px;
+    padding:0;
+    margin:0;
+}
+
+.rounds .round .roundNo{
+    font-weight: 600;
+    font-size: 40px;
+    padding:0;
+    margin:0;
+}
+
+.rounds .round-txt{
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+    padding:0;
+    margin:0;
+}
