@@ -1,39 +1,27 @@
 /* CSS HEX */
- --azalea: #fbdfe3;
---carnation: #f24c54;
---saffron-mango: #fbd04e;
---limed-spruce: #324747;
---oriental-pink: #c593a3;
---buff: #f4d685;
---fuchsia-pink: #c757b3;
---edward: #abb2b3;
---cavern-pink: #e2bbc2;
---astra: #fae5b6;
+--pink-1: #fdecef;
+--bright-reddish-pink: #f34954;
+--mangoish-yellow: #f9d459;
+--bright-yellowish-orange: #ffc400;
+--pink-2: #e2bbc2;
+--pink-3: #ffd2da;
 
 
 /* SCSS HEX */
-$azalea: #fbdfe3;
-$carnation: #f24c54;
-$saffron-mango: #fbd04e;
-$limed-spruce: #324747;
-$oriental-pink: #c593a3;
-$buff: #f4d685;
-$fuchsia-pink: #c757b3;
-$edward: #abb2b3;
-$cavern-pink: #e2bbc2;
-$astra: #fae5b6;
+$pink-1: #fdecef;
+$bright-reddish-pink: #f34954;
+$mangoish-yellow: #f9d459;
+$bright-yellowish-orange: #ffc400;
+$pink-2: #e2bbc2;
+$pink-3: #ffd2da;
 
 
 /* SCSS RGB */
---azalea: rgba(251,223,227,1);
---carnation: rgba(242,76,84,1);
---saffron-mango: rgba(251,208,78,1);
---limed-spruce: rgba(50,71,71,1);
---oriental-pink: rgba(197,147,163,1);
---buff: rgba(244,214,133,1);
---fuchsia-pink: rgba(199,87,179,1);
---edward: rgba(171,178,179,1);
---cavern-pink: rgba(226,187,194,1);
---astra: rgba(250,229,182,1);
+--pink-1: rgb(253, 236, 239);
+--bright-reddish-pink: rgb(243, 73, 84);
+--manogish-yellow: rgb(249, 212, 89);
+--bright-yellowish-orange: rgb(255, 196, 0);
+--pink-2: rgb(226, 187, 194);
+--pink-3: rgb(255, 210, 218);
 
 
