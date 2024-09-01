@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="./color palatte/palatte.css">
     <link rel="stylesheet" href="./fonts/fonts.css">
 </head>
+
 <body>
     <div class="main">
         <div class="upperSection">
@@ -15,30 +17,45 @@
                 <h1>TIC <span class="title-span">TAC</span> TOE</h1>
             </div>
             <div class="rounds">
-                    <span class="round"><span class="roundNo">1</span>st</span>
-                    <span class="round-txt">round</span>
+                <span class="round"><span class="roundNo">1</span>st</span>
+                <span class="round-txt">round</span>
             </div>
         </div>
         <div class="middleSection">
-            <div class="firstPlayer"></div>
-            <div class="wrapper">
-            <div class="ticTacToe-section">
-                <button class="clk-btn btn-1 sp-bg">X</button>
-                <button class="clk-btn btn-2">X</button>
-                <button class="clk-btn btn-3">O</button>
-                <button class="clk-btn btn-4">O</button>
-                <button class="clk-btn btn-5 sp-bg">X</button>
-                <button class="clk-btn btn-6"></button>
-                <button class="clk-btn btn-7"></button>
-                <button class="clk-btn btn-8">O</button>
-                <button class="clk-btn btn-9 sp-bg">X</button>
+            <div class="playerWrapper">
+                <div class="game-Player">
+                        <img src="./characters/car-02.jpg">
+                        <span class="PlayerNameSpan">#Sahmekh</span>
+                        <button class="tag-btn">O</button>
+                </div>
+                <button class="round-won">win rounds:1</button>
             </div>
-        </div>
-            <div class="secondPlayer"></div>
+            <div class="wrapper">
+                <div class="ticTacToe-section">
+                    <button class="clk-btn btn-1 sp-bg">X</button>
+                    <button class="clk-btn btn-2">X</button>
+                    <button class="clk-btn btn-3">O</button>
+                    <button class="clk-btn btn-4">O</button>
+                    <button class="clk-btn btn-5 sp-bg">X</button>
+                    <button class="clk-btn btn-6"></button>
+                    <button class="clk-btn btn-7"></button>
+                    <button class="clk-btn btn-8">O</button>
+                    <button class="clk-btn btn-9 sp-bg">X</button>
+                </div>
+            </div>
+            <div class="playerWrapper">
+                <div class="game-Player">
+                        <img src="./characters/car-04.jpg">
+                        <span class="PlayerNameSpan">#Mekh</span>
+                        <button class="tag-btn">X</button>
+                </div>
+                <button class="round-won">win rounds:1</button>
+            </div>
         </div>
         <div class="lowerSection">
             <button class="turn-btn">Your Turn</button>
         </div>
     </div>
 </body>
+
 </html>

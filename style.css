@@ -232,3 +232,73 @@ body{
 }
 
 /* center tic tec toe main part design */
+
+.playerWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.game-Player{
+    width: 170px;
+    height: 180px;
+    background-color: white;
+    border: 1px solid var(--bright-reddish-pink);
+    border-radius: 35%;
+    box-shadow: 0px 5px 50px rgb(212, 212, 212);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.game-Player img{
+    width: 100px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0px 6px 8px #f3495476;
+    /* position: absolute;
+    top: 100;
+    right: 0; */
+}
+
+.PlayerNameSpan{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Montserrat";
+    text-transform: capitalize;
+    margin: 12px;
+
+}
+
+.tag-btn{
+    width: 90px;
+    padding: 5px;
+    font-weight: 900;
+    font-family: sans-serif;
+    font-size: 25px;
+    border: none;
+    border-radius: 50px;
+    background-color: var(--bright-reddish-pink);
+    color: var(--bright-yellowish-orange);
+}
+
+.round-won{
+    background-color: rgba(255, 255, 255, 0);
+    border: 3px solid var(--mangoish-yellow);
+    width: 180px;
+    height: 45px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: var(--bright-yellowish-orange);
+    font-family: "Roboto-Medium";
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+/* players styling */
