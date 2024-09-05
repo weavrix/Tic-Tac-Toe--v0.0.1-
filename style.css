@@ -33,7 +33,7 @@ body{
 
 .upperSection{
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
     width: 100%;
     height: fit-content;
@@ -43,6 +43,7 @@ body{
 
 .title h1{
     font-family: "Montserrat";
+    font-size: 2vw;
 }
 
 .title-span{
@@ -50,8 +51,8 @@ body{
 }
 
 .rounds{
-    width: 100px;
-    height: 100px;
+    width: 8vw;
+    height: 8vw;
     border-radius: 50%;
     background: var(--bright-yellowish-orange);
     display: flex;
@@ -67,21 +68,21 @@ body{
 
 .rounds .round{
     font-weight: 700;
-    font-size: 25px;
+    font-size: 1.5vw;
     padding:0;
     margin:0;
 }
 
 .rounds .round .roundNo{
     font-weight: 600;
-    font-size: 40px;
+    font-size: 3vw;
     padding:0;
     margin:0;
 }
 
 .rounds .round-txt{
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1vw;
     text-transform: capitalize;
     padding:0;
     margin:0;
@@ -103,20 +104,21 @@ body{
 }
 
 .lowerSection .turn-btn{
-    width: 220px;
-    padding: 20px;
+    width: 16vw;
+    padding: 1.5vw;
     border-radius: 50px;
     background-color: var(--mangoish-yellow);
     border: none;
-    height: 65px;
-    font-size: 20px;
+    max-height: 2vw;
+    font-size: 1vw;
     font-weight: 700;
     color: var(--bright-reddish-pink);
     font-family: "Montserrat";
     text-transform: uppercase;
-    letter-spacing: -2px;
+    letter-spacing: -1px;
     transition: 0.2s ease;
     text-align: center;
+    padding-bottom: 2.5vw;
 }
 
 .lowerSection .turn-btn:hover{
@@ -135,34 +137,37 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 50px;
+    gap: 2vw;
     width: 100%;
 }
 
 .wrapper{
-    width: 340px;
-    height: 340px;
+    width: 25vw;
+    height: 25vw;
     background-color: white;
     border: 4px dashed var(--bright-reddish-pink);
-    border-radius: 30px;
+    border-radius: 1.5vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0.4vw;
 }
 
 .ticTacToe-section{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
 }
 
 
 
 .clk-btn{
-    width: 105px;
-    height: 105px;
+    width: 100%;
+    height: 100%;
     border: none;
-    font-size: 50px;
+    font-size: 4vw;
     margin: none;
     padding: none;
     font-family: "Mohr-Rounded";
@@ -170,6 +175,9 @@ body{
     background-color: var(--bright-reddish-pink);
     text-shadow: 0px 5px 10px white;
     transition: 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .clk-btn:hover{
@@ -185,7 +193,7 @@ body{
 }
 
 .btn-1{
-    border-top-left-radius: 20px;
+    border-top-left-radius: 1vw;
     border-right: 2px dashed white;
     border-bottom: 2px dashed white;
 }
@@ -195,7 +203,7 @@ body{
     border-right: 2px dashed white;
 }
 .btn-3{
-    border-top-right-radius: 20px;
+    border-top-right-radius: 1vw;
     border-bottom: 2px dashed white;
     border-left: 2px dashed white;
 }
@@ -216,7 +224,7 @@ body{
     border-left: 2px dashed white;
 }
 .btn-7{
-    border-bottom-left-radius: 20px;
+    border-bottom-left-radius: 1vw;
     border-top: 2px dashed white;
     border-right: 2px dashed white;
 }
@@ -226,9 +234,17 @@ body{
     border-right: 2px dashed white;
 }
 .btn-9{
-    border-bottom-right-radius: 20px;
+    border-bottom-right-radius: 1vw;
     border-top: 2px dashed white;
     border-left: 2px dashed white;
+}
+
+.clk-btn span{
+    transition: 0.2s ease;
+}
+
+.clk-btn span:hover{
+    font-size: 4.8vw;
 }
 
 /* center tic tec toe main part design */
@@ -242,63 +258,272 @@ body{
 
 
 .game-Player{
-    width: 170px;
-    height: 180px;
+    width: 10.5vw;
+    height: 10.5vw;
     background-color: white;
     border: 1px solid var(--bright-reddish-pink);
-    border-radius: 35%;
+    border-radius: 10%;
     box-shadow: 0px 5px 50px rgb(212, 212, 212);
     display: flex;
     align-items: center;
     justify-content: flex-end;
     flex-direction: column;
-    padding: 20px;
+    padding: 2vw;
     box-sizing: border-box;
 }
 
 .game-Player img{
-    width: 100px;
+    width: 7vw;
     border-radius: 50%;
     border: 10px solid white;
     box-shadow: 0px 6px 8px #f3495476;
-    /* position: absolute;
-    top: 100;
-    right: 0; */
+    transition: 0.5s ease;
+}
+
+.game-Player img:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    border: 10px solid var(--bright-reddish-pink);
 }
 
 .PlayerNameSpan{
-    font-size: 18px;
+    font-size: 1vw;
     font-weight: 700;
     font-family: "Montserrat";
     text-transform: capitalize;
-    margin: 12px;
+    margin: 1vw;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 
+.PlayerNameSpan:hover{
+    color: var(--bright-reddish-pink);
 }
 
 .tag-btn{
-    width: 90px;
-    padding: 5px;
+    width: 7vw;
+    padding: 0.5vw;
     font-weight: 900;
     font-family: sans-serif;
-    font-size: 25px;
+    font-size: 1.5vw;
     border: none;
-    border-radius: 50px;
+    border-radius: 2vw;
     background-color: var(--bright-reddish-pink);
     color: var(--bright-yellowish-orange);
+    transition: 0.2s ease;
+}
+
+.tag-btn:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .round-won{
     background-color: rgba(255, 255, 255, 0);
     border: 3px solid var(--mangoish-yellow);
-    width: 180px;
-    height: 45px;
-    margin-top: 20px;
+    width: 10vw;
+    height: 2vw;
+    margin-top: 1vw;
     border-radius: 30px;
     color: var(--bright-yellowish-orange);
     font-family: "Roboto-Medium";
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1vw;
     text-transform: capitalize;
+    transition: 0.3s ease;
+}
+
+
+.round-won:hover{
+    background-color: var(--bright-yellowish-orange);
+    color: white;
+    cursor: pointer;
+    border: 3px solid white;
 }
 
 /* players styling */
+
+.hidden{
+    display: none;
+}
+
+@media (max-width: 1100px) {
+    .game-Player{
+        width: 15vw;
+        height: 15vw;
+    }
+    .wrapper{
+        width: 39vw;
+        height: 39vw;
+    }
+    .clk-btn{
+        font-size: 6vw;
+    }
+}
+
+@media (max-width: 912px) {
+        .hidden{
+            display: flex;
+            width: 50vw;
+            justify-content: space-between;
+        }
+        .title h1{
+            font-size: 5vw;
+        }
+        .playerWrapper{
+            display: none;
+        }
+        .playerWrapper-x{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .wrapper{
+            width: 50vw;
+            height: 50vw;
+        }
+        .middleSection{
+            flex-direction: column;
+            justify-content: space-around;
+            width: 100%;
+        }
+        .game-Player{
+            width: 20vw;
+            height: 20vw;
+            padding: 2vw;
+        }
+
+        .game-Player img{
+            width: 12vw;
+            border: 1vw solid white;
+            margin-bottom: 1vw;
+        }
+
+        .game-Player img:hover{
+            border: 8px solid var(--bright-reddish-pink);
+        }
+
+        .PlayerNameSpan{
+            font-size: 2vw;
+            margin-bottom: 2vw;
+        }
+
+        .tag-btn{
+            width: 15vw;
+            padding: 0.1vw;
+            border-radius: 5vw;
+            margin-bottom: 0;
+            font-size: 3vw;
+            margin-bottom: 1vw;
+        }
+
+        .round-won{
+            width: 18vw;
+            border: 5px solid var(--mangoish-yellow);
+            font-size: 2vw;
+            padding-inline-start: 1vw;
+            padding: 0;
+            color: var(--bright-yellowish-orange);
+            padding: 1vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .round-won:hover{
+            border: 5px solid white;
+        }
+        .lowerSection .turn-btn{
+            width: 40vw;
+            padding: 4vw;
+            font-size: 4vw;
+            height: 1vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .clk-btn{
+            font-size: 8vw;
+        }
+}
+
+@media (max-width: 500px) {
+    .hidden{
+        width: 70vw;
+        justify-content: space-between;
+    }
+    .main{
+        padding: 5vw;
+    }
+    .wrapper{
+        width: 70vw;
+        height: 70vw;
+    }
+    .clk-btn{
+        font-size: 12vw;
+    }
+    .lowerSection .turn-btn{
+        width: 50vw;
+        padding: 5vw;
+        font-size: 5vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .title h1{
+        font-size: 5vw;
+    }
+    .round-txt{
+        display: none;
+    }
+    .rounds{
+        width: 10vw;
+        height: 10vw;
+        padding: 7vw;
+    }
+    .rounds .round .roundNo{
+        font-size: 7vw;
+    }
+    .rounds .round{
+        font-size: 4vw;
+    }
+
+    .playerWrapper{
+        display: none;
+    }
+    .playerWrapper-x{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .game-Player{
+        width: 25vw;
+        height: 25vw;
+    }
+
+    .game-Player img{
+        width: 15vw;
+        border: 1.5vw solid white;
+    }
+
+    .game-Player img:hover{
+        border: 8px solid var(--bright-reddish-pink);
+    }
+
+    .PlayerNameSpan{
+        font-size: 3vw;
+    }
+    .tag-btn{
+        font-size: 3.5vw;
+        width: 18vw;
+        padding: 0.2vw;
+        border-radius: 5vw;
+    }
+    .round-won{
+        width: 25vw;
+        padding: 1.5vw;
+        font-size: 2.5vw;
+    }
+}
