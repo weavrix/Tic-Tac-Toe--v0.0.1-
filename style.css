@@ -1,6 +1,6 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -368,10 +368,10 @@ body{
             justify-content: space-between;
         }
         .title h1{
-            font-size: 5vw;
+            font-size: 5vw;;
         }
         .playerWrapper{
-            display: none;
+            display: none
         }
         .playerWrapper-x{
             display: flex;
